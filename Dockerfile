@@ -1,3 +1,3 @@
 FROM golang:rc-alpine
-go-wrapper download github.com/netroby/gotcpforward
-CMD ["gotcpforward"]
+/usr/local/bin/go-wrapper download github.com/netroby/gotcpforward
+CMD ["/go/bin/gotcpforward"]
