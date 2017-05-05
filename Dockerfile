@@ -1,4 +1,4 @@
-FROM golang:rc-alpine
+FROM golang:alpine
 ENV GOPATH /go
 RUN apk update
 RUN apk add git
